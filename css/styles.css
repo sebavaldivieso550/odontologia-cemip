@@ -24,7 +24,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../images/background2.jpg);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(/images/background2.jpg);
     background-repeat: no-repeat;
     background-size: 185%;
     background-position: center left;
