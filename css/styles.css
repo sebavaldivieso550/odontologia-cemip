@@ -29,6 +29,12 @@
     background-size: 185%;
     background-position: center left;
     border-radius: 10px;
+    transition: 1s;
+}
+
+
+.menu__img:hover {
+    background-size: 200%;
 }
 
 .menu__img__titulo {
@@ -79,4 +85,11 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .menu__container, .menu__img__titulo, .menu__img__subtitulo {
+        display: flex;
+        flex-direction: column;
+    }    
 }
