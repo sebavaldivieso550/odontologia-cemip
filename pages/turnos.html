@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/turnos.css">
 
     <title>CEMIP Turnos</title>
 </head>
@@ -39,24 +40,28 @@
           </nav>
     </header>
     <main>
-      <section class="form__container">
-        <form class="form">
-          <label>Nombre</label>
-          <input type="text">
-          <label>Apellido</label>
-          <input type="text">
-          <label>DNI</label>
-          <input type="number">
-          <label>Teléfono</label>
-          <input type="number">
-          <input type="number">
-          <select class="form-select form-select-sm" aria-label="Small select example">
-            <option selected disabled>Seleccione a su doctor</option>
-            <option value="1">Doctor 1</option>
-            <option value="2">Doctor 2</option>
-            <option value="3">Doctor 3</option>
-          </select>
-          <button type="button" class="btn btn-info">Enviar</button>
+      <section>
+        <form class="form__container">
+          <div class="form__container__1">
+            <label class="form__name">Nombre</label>
+            <input type="text">
+            <label class="form__lastname">Apellido</label>
+            <input type="text">
+            <label class="form__dni">DNI</label>
+            <input type="number">
+            <label class="form__phone">Teléfono</label>
+            <input type="number" class="form__phone__caract">
+            <input type="number" class="form__phone__number">
+          </div>
+          <div class="form__container__2">  
+            <select class="form-select form-select-sm" aria-label="Small select example">
+              <option selected disabled>Seleccione a su doctor</option>
+              <option value="1">Doctor 1</option>
+              <option value="2">Doctor 2</option>
+              <option value="3">Doctor 3</option>
+            </select>
+            <button type="button" class="btn btn-info">Enviar</button>
+          </div>
         </form>
       </section>
     </main>
