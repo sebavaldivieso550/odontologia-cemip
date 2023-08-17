@@ -5,15 +5,17 @@
 }
 
 body {
-  width: 98%;
-  height: 100vh;
+  min-height: 100vh;
+  justify-content: center;
   background-image: url(../images/background1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.contact__form__container {
+body main {
+  display: flex;
+}
+body main .contact__form__container {
   display: flex;
   margin: 2rem;
   padding: 2rem;
@@ -22,17 +24,17 @@ body {
   background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 20px;
 }
-.contact__form__container div label {
+body main .contact__form__container div label {
   color: #8cc1d3;
   font-size: 1.5rem;
 }
-.contact__form__container div input {
-  width: 40%;
+body main .contact__form__container div input {
+  min-width: 40%;
 }
-.contact__form__container div textarea {
+body main .contact__form__container div textarea {
   height: 20vh;
 }
-.contact__form__container button {
-  width: 10%;
+body main .contact__form__container button {
+  min-width: 10%;
   align-self: center;
 }/*# sourceMappingURL=contacto.css.map */

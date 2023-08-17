@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../images/background1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -14,5 +14,16 @@ body {
 
 .tratamientos__container {
   margin-top: 2rem;
-  margin-left: 3rem;
+  margin-inline: 3rem;
+}
+
+.col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-md-4 .img-fluid {
+  max-height: 80%;
+  max-width: 90%;
+  border-radius: 5px;
 }/*# sourceMappingURL=tratamientos.css.map */

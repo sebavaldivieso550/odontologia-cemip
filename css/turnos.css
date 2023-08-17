@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .form__container {
@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   row-gap: 2rem;
   background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-radius: 20px;
 }
 .form__container .form__container__1 {
   display: flex;
@@ -42,7 +43,7 @@ body {
           appearance: none;
 }
 .form__container .form__container__1 .form__phone__caract {
-  width: 4%;
+  width: 5%;
 }
 .form__container .form__container__2 {
   display: flex;
@@ -52,5 +53,27 @@ body {
   align-items: center;
 }
 .form__container .form__container__2 .form-select {
-  width: 15%;
+  width: 25%;
+}
+
+@media (max-width: 850px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body .form__container .form__container__1 {
+    flex-direction: column;
+  }
+  body .form__container .form__container__1 input {
+    width: auto;
+  }
+  body .form__container .form__container__1 .form__phone__caract {
+    width: 10%;
+  }
+  body .form__container__2 {
+    width: 100%;
+  }
+  body .form__container__2 .form-select {
+    width: 40% !important;
+  }
 }/*# sourceMappingURL=turnos.css.map */

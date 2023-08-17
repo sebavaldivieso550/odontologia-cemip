@@ -41,12 +41,12 @@ body {
         background-image: $gradient;
         border: solid 2px #161616;
         border-radius: 30px;
-        transition: all 1s;
         &:hover {
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: $gradient, url(../images/background2.jpg);
+        transition: all 1s;
         }
         .menu__img__titulo {
             display: flex;
@@ -72,6 +72,7 @@ body {
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            transition: all 1s;
         }
         p {
             color: #8cc1d3;
@@ -121,7 +122,7 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .menu__container, .menu__img__titulo, .menu__img__subtitulo {
         display: flex;
         flex-direction: column;

@@ -7,41 +7,45 @@
 }
 
 body {
-    width: 98%;
-    height: 100vh;
+    min-height: 100vh;
+    justify-content: center;
     background-image: url(../images/background1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-.contact__form__container {
-    display: flex;
-    margin: 2rem;
-    padding: 2rem;
-    width: 100%;
-    flex-direction: column;
-    background-image: $gradient;
-    border-radius: 20px;
+    main {
+        display: flex;
 
-    div {
-
-        label {
-            color: #8cc1d3;
-            font-size: 1.5rem;
+        .contact__form__container {
+            display: flex;
+            margin: 2rem;
+            padding: 2rem;
+            width: 100%;
+            flex-direction: column;
+            background-image: $gradient;
+            border-radius: 20px;
+        
+            div {
+        
+                label {
+                    color: #8cc1d3;
+                    font-size: 1.5rem;
+                }
+        
+                input {
+                    min-width: 40%;
+                }
+        
+                textarea {
+                    height: 20vh;
+                }
+            }
+        
+            button {
+                min-width: 10%;
+                align-self: center;
+            }
         }
-
-        input {
-            width: 40%;
-        }
-
-        textarea {
-            height: 20vh;
-        }
-    }
-
-    button {
-        width: 10%;
-        align-self: center;
     }
 }
