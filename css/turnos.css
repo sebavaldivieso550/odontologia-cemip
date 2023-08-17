@@ -56,6 +56,15 @@ body {
   width: 25%;
 }
 
+footer {
+  display: flex;
+  align-items: flex-end;
+}
+footer p {
+  align-self: flex-end;
+  color: #ffffff;
+}
+
 @media (max-width: 850px) {
   body {
     display: flex;

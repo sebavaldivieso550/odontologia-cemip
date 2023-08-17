@@ -26,4 +26,13 @@ body {
   max-height: 80%;
   max-width: 90%;
   border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+}
+footer p {
+  align-self: flex-end;
+  color: #ffffff;
 }/*# sourceMappingURL=tratamientos.css.map */
