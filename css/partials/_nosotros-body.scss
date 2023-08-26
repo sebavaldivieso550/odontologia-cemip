@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+
+    main {
+        margin: 2rem;
+        display: flex;
+        min-height: 85vh;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        background-image: $gradient, $gradient;
+        border-radius: 15px;
+
+        .pie {
+            display: grid;
+            margin: 1rem;
+            width: 100%;
+            min-height: 100%;
+            grid-template-columns: 1fr, 1fr, 1fr;
+            gap: 3vw;
+
+            div {
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-self: center;
+                border-radius: 5px;
+                border: solid 2px black;
+            }
+
+            .info, .nosotros {
+                background-color: #22577a;
+            }
+
+            .subtitulo-container {
+                display: flex;
+                flex-direction: column;
+                background-color: #4a4e69;
+
+                h2 {
+                    font-family: 'Ysabeau Office', sans-serif;
+                    font-size: 2rem;
+                    text-align: center;
+                    color: #edf6f9;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .info {
+                display: flex;
+                min-height: 100%;
+
+                .info-container {
+                    display: grid;
+                    min-height: 80%;
+                    max-height: 80%;
+                    padding: 3%;
+                    grid-template-rows: repeat(4, 1fr);
+                    list-style-type: none;
+
+                    li {
+                        align-self: center;
+                        font-size: 1.3rem;
+                    }
+
+                    p {
+                        align-self: flex-start;
+                    }
+                }
+            }
+
+            .nosotros {
+                display: grid;
+                min-height: 100%;
+                width: 100%;
+                padding: 3%;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 3;
+                grid-template-rows: 8% 1fr; 
+                gap: 1vh;
+                overflow: hidden;
+
+                p {
+                    align-self: center;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+
+                iframe {
+                    min-height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $mainFont;
+
+    &::selection {
+        background-color: #131313;
+        color: #66b6eb;
+    }
+}

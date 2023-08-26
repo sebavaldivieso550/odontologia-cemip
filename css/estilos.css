@@ -1,12 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ysabeau Office", sans-serif;
+}
+*::-moz-selection {
+  background-color: #131313;
+  color: #66b6eb;
+}
+*::selection {
+  background-color: #131313;
+  color: #66b6eb;
 }
 
 body {
   min-height: 95vh;
-  background-image: url(../images/background1.jpg);
+  background-image: url(../../images/background1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,8 +86,7 @@ body {
   font-size: 2rem;
   font-weight: 900;
 }
-
-.menu__turnos {
+.menu__container .menu__turnos {
   grid-area: turnos;
   display: flex;
   justify-content: center;
@@ -86,8 +95,7 @@ body {
   width: 100%;
   text-decoration: none;
 }
-
-.menu__tratamientos {
+.menu__container .menu__tratamientos {
   grid-area: tratamientos;
   display: flex;
   justify-content: center;
@@ -96,8 +104,7 @@ body {
   width: 100%;
   text-decoration: none;
 }
-
-.menu__contacto {
+.menu__container .menu__contacto {
   grid-area: contacto;
   display: flex;
   justify-content: center;
@@ -106,8 +113,7 @@ body {
   width: 100%;
   text-decoration: none;
 }
-
-.menu__nosotros {
+.menu__container .menu__nosotros {
   grid-area: nosotros;
   display: flex;
   justify-content: center;
@@ -120,6 +126,7 @@ body {
 footer {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 footer p {
   align-self: flex-end;

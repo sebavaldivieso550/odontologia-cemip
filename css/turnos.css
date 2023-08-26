@@ -1,18 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ysabeau Office", sans-serif;
+}
+*::-moz-selection {
+  background-color: #131313;
+  color: #66b6eb;
+}
+*::selection {
+  background-color: #131313;
+  color: #66b6eb;
 }
 
 body {
-  background-image: url(../images/background1.jpg);
+  min-height: 95vh;
+  background-image: url(../../images/background1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
-.form__container {
+body {
+  min-height: 100vh;
+}
+body .form__container {
   margin: 2rem;
   padding: 2rem;
   display: flex;
@@ -21,44 +34,45 @@ body {
   background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 20px;
 }
-.form__container .form__container__1 {
+body .form__container .form__container__1 {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   padding: 1rem;
   width: 100%;
 }
-.form__container .form__container__1 label {
+body .form__container .form__container__1 label {
   color: rgba(90, 200, 219, 0.8274509804);
   font-size: 1.5rem;
 }
-.form__container .form__container__1 input {
+body .form__container .form__container__1 input {
   margin: 1rem;
   width: 15%;
   border: solid 2px rgba(90, 200, 219, 0.8274509804);
   border-radius: 5px;
 }
-.form__container .form__container__1 input::-webkit-inner-spin-button, .form__container .form__container__1 input::-webkit-outer-spin-button {
+body .form__container .form__container__1 input::-webkit-inner-spin-button, body .form__container .form__container__1 input::-webkit-outer-spin-button {
   -webkit-appearance: none;
           appearance: none;
 }
-.form__container .form__container__1 .form__phone__caract {
+body .form__container .form__container__1 .form__phone__caract {
   width: 5%;
 }
-.form__container .form__container__2 {
+body .form__container .form__container__2 {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   justify-content: center;
   align-items: center;
 }
-.form__container .form__container__2 .form-select {
+body .form__container .form__container__2 .form-select {
   width: 25%;
 }
 
 footer {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 footer p {
   align-self: flex-end;

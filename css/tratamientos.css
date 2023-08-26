@@ -1,28 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ysabeau Office", sans-serif;
+}
+*::-moz-selection {
+  background-color: #131313;
+  color: #66b6eb;
+}
+*::selection {
+  background-color: #131313;
+  color: #66b6eb;
+}
+
+body {
+  min-height: 95vh;
+  background-image: url(../../images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body {
   min-height: 100vh;
-  background-image: url(../images/background1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
-.tratamientos__container {
+body .tratamientos__container {
   margin-top: 2rem;
   margin-inline: 3rem;
 }
-
-.col-md-4 {
+body .col-md-4 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.col-md-4 .img-fluid {
+body .col-md-4 .img-fluid {
   max-height: 80%;
   max-width: 90%;
   border-radius: 5px;
@@ -31,6 +43,7 @@ body {
 footer {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 footer p {
   align-self: flex-end;

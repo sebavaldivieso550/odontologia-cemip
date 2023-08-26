@@ -1,0 +1,11 @@
+@media (max-width: 850px) {
+    .menu__container, .menu__img__titulo, .menu__img__subtitulo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu__img {
+        height: auto;
+        width: 100%;
+    }
+}

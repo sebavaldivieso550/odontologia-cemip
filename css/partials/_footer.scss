@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    p {
+        align-self: flex-end;
+        color: #ffffff;
+    }
+}
