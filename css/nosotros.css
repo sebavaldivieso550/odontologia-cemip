@@ -53,21 +53,22 @@ body main .pie div {
   border: solid 2px black;
 }
 body main .pie .info, body main .pie .nosotros {
-  background-color: #22577a;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 body main .pie .subtitulo-container {
   display: flex;
   flex-direction: column;
-  background-color: #4a4e69;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 body main .pie .subtitulo-container h2 {
   font-family: "Ysabeau Office", sans-serif;
   font-size: 2rem;
   text-align: center;
-  color: #edf6f9;
+  color: #bdeeff;
 }
 body main .pie .subtitulo-container p {
   text-align: center;
+  color: #f1fcff;
 }
 body main .pie .info {
   display: flex;
@@ -85,14 +86,19 @@ body main .pie .info .info-container li {
   align-self: center;
   font-size: 1.3rem;
 }
+body main .pie .info .info-container li h4 {
+  color: #bdeeff;
+}
 body main .pie .info .info-container p {
   align-self: flex-start;
+  color: #f1fcff;
 }
 body main .pie .nosotros {
   display: grid;
   min-height: 100%;
   width: 100%;
   padding: 3%;
+  justify-items: center;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 3;
@@ -104,6 +110,7 @@ body main .pie .nosotros p {
   align-self: center;
   font-size: 1.5rem;
   font-weight: 600;
+  color: #bdeeff;
 }
 body main .pie .nosotros iframe {
   min-height: 100%;

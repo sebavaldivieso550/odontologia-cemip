@@ -56,7 +56,7 @@ body .form__container .form__container__1 input::-webkit-inner-spin-button, body
           appearance: none;
 }
 body .form__container .form__container__1 .form__phone__caract {
-  width: 5%;
+  width: 10%;
 }
 body .form__container .form__container__2 {
   display: flex;
