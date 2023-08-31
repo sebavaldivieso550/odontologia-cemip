@@ -1,10 +1,29 @@
 footer {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 
     p {
-        align-self: flex-end;
+        align-self: center;
         color: #ffffff;
+    }
+
+    div {
+        display: flex;
+        width: 5%;
+        justify-content: space-around;
+    }
+}
+
+$redes: (
+    facebook: #4848ff,
+    instagram: #8100d6,
+    whatsapp: #008a00
+);
+
+@each $redsocial, $color in $redes {
+    .fa-square-#{$redsocial} {
+        color: $color;
     }
 }

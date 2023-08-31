@@ -42,10 +42,28 @@ body .col-md-4 .img-fluid {
 
 footer {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 footer p {
-  align-self: flex-end;
+  align-self: center;
   color: #ffffff;
+}
+footer div {
+  display: flex;
+  width: 5%;
+  justify-content: space-around;
+}
+
+.fa-square-facebook {
+  color: #4848ff;
+}
+
+.fa-square-instagram {
+  color: #8100d6;
+}
+
+.fa-square-whatsapp {
+  color: #008a00;
 }/*# sourceMappingURL=tratamientos.css.map */

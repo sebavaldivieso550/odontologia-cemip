@@ -71,12 +71,30 @@ body .form__container .form__container__2 .form-select {
 
 footer {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 footer p {
-  align-self: flex-end;
+  align-self: center;
   color: #ffffff;
+}
+footer div {
+  display: flex;
+  width: 5%;
+  justify-content: space-around;
+}
+
+.fa-square-facebook {
+  color: #4848ff;
+}
+
+.fa-square-instagram {
+  color: #8100d6;
+}
+
+.fa-square-whatsapp {
+  color: #008a00;
 }
 
 @media (max-width: 850px) {
