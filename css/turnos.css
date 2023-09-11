@@ -115,10 +115,10 @@ footer div {
     flex-direction: column;
   }
   body .form__container .form__container__1 input {
-    width: auto;
+    width: 50% !important;
   }
   body .form__container .form__container__1 .form__phone__caract {
-    width: 10%;
+    width: 30% !important;
   }
   body .form__container__2 {
     width: 100%;
