@@ -26,6 +26,7 @@ body {
   min-height: 100vh;
 }
 body main {
+  min-height: 85vh;
   display: flex;
 }
 body main .contact__form__container {
@@ -50,6 +51,53 @@ body main .contact__form__container div textarea {
 body main .contact__form__container button {
   min-width: 10%;
   align-self: center;
+}
+body main .contact__form__container .contact__form__container__2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+}
+body main .contact__form__container .contact__form__container__2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .contact__form__container .contact__form__container__2 div a {
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 30%;
+  padding: 1%;
+  background-color: #0e995f;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  border: solid 3px white;
+  border-radius: 20px;
+  transition: all 1s;
+}
+body main .contact__form__container .contact__form__container__2 div a:hover {
+  background-color: #075535;
+}
+body main .contact__form__container .contact__form__container__2 div i {
+  padding: 3%;
+  color: #0e995f;
+  background-color: white;
+  border-radius: 25px;
+}
+body main .contact__form__container .contact__form__container__2 div p {
+  justify-self: center;
+  padding: 5%;
+  color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-radius: 5px;
+}
+body main .contact__form__container .contact__form__container__2 h3 {
+  color: #8cc1d3;
+  font-weight: 800;
 }
 
 footer {

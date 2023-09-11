@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
 
     main {
+        min-height: 85vh;
         display: flex;
 
         .contact__form__container {
@@ -32,6 +33,59 @@ body {
             button {
                 min-width: 10%;
                 align-self: center;
+            }
+
+            .contact__form__container__2 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 2%;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    a {
+                        padding: 5%;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        min-width: 30%;
+                        padding: 1%;
+                        background-color: #0e995f;
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 900;
+                        border: solid 3px white;
+                        border-radius: 20px;
+                        transition: all 1s;
+                        &:hover {
+                            background-color: #075535;
+                        }
+                    }
+                    
+                    i { 
+                        padding: 3%;
+                        color: #0e995f;
+                        background-color: white;
+                        border-radius: 25px;
+                    }
+
+                    p {
+                        justify-self: center;
+                        padding: 5%;
+                        color: white;
+                        background-image: $gradient;
+                        border-radius: 5px;
+                    }
+                }
+
+                h3 {
+                    color: #8cc1d3;
+                    font-weight: 800;
+                }
             }
         }
     }
