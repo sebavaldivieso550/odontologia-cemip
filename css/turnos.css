@@ -25,7 +25,14 @@ body {
 body {
   min-height: 100vh;
 }
-body .form__container {
+body main {
+  min-height: 80vh;
+}
+body main section {
+  min-height: 100vh;
+}
+body main section .form__container {
+  min-height: 100vh;
   margin: 2rem;
   padding: 2rem;
   display: flex;
@@ -34,38 +41,40 @@ body .form__container {
   background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 20px;
 }
-body .form__container .form__container__1 {
+body main section .form__container .form__container__1 {
   display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
   padding: 1rem;
   width: 100%;
 }
-body .form__container .form__container__1 label {
+body main section .form__container .form__container__1 label {
   color: rgba(90, 200, 219, 0.8274509804);
   font-size: 1.5rem;
 }
-body .form__container .form__container__1 input {
+body main section .form__container .form__container__1 input {
   margin: 1rem;
+  padding: 1%;
   width: 15%;
   border: solid 2px rgba(90, 200, 219, 0.8274509804);
   border-radius: 5px;
 }
-body .form__container .form__container__1 input::-webkit-inner-spin-button, body .form__container .form__container__1 input::-webkit-outer-spin-button {
+body main section .form__container .form__container__1 input::-webkit-inner-spin-button, body main section .form__container .form__container__1 input::-webkit-outer-spin-button {
   -webkit-appearance: none;
           appearance: none;
 }
-body .form__container .form__container__1 .form__phone__caract {
+body main section .form__container .form__container__1 .form__phone__caract {
   width: 10%;
 }
-body .form__container .form__container__2 {
+body main section .form__container .form__container__2 {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   justify-content: center;
   align-items: center;
 }
-body .form__container .form__container__2 .form-select {
+body main section .form__container .form__container__2 .form-select {
   width: 25%;
 }
 
