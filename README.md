@@ -14,6 +14,7 @@ Este proyecto es un sitio web sencillo para un consultorio odontológico fictici
 * **Optimización SEO Básica**: Meta etiquetas de descripción y palabras clave para mejorar la visibilidad en buscadores.
 
 ## 📁 Estructura del Proyecto
+``````
 cemip-odontologia/
 ├── css/
 │   ├── contacto.css
@@ -54,6 +55,7 @@ cemip-odontologia/
 │   ├── tratamientos.scss
 │   └── turnos.scss
 └── index.html
+``````
 
 ## 🛠️ Tecnologías Utilizadas
 
