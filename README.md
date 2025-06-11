@@ -16,45 +16,45 @@ Este proyecto es un sitio web sencillo para un consultorio odontológico fictici
 ## 📁 Estructura del Proyecto
 ``````
 cemip-odontologia/
-├── css/
-│   ├── contacto.css
-│   ├── estilos.css
-│   ├── nosotros.css
-│   ├── tratamientos.css
-│   └── turnos.css
-├── images/
-│   ├── background.jpg
-│   ├── background1.jpg
-│   ├── background2.jpg
-│   ├── dental_teeth_tooth_dentist_icon_220580.png (favicon)
-│   ├── favicon.jpg
-│   └── (otras imágenes de tratamientos, etc.)
-├── pages/
-│   ├── contacto.html
-│   ├── nosotros.html
-│   ├── tratamientos.html
-│   └── turnos.html
-├── scss/
-│   ├── partials/
-│   │   ├── _body.scss
-│   │   ├── _contacto-body.scss
-│   │   ├── _contacto-mediaqueries.scss
-│   │   ├── _footer.scss
-│   │   ├── _mediaqueries.scss
-│   │   ├── _menu.scss
-│   │   ├── _nosotros-body.scss
-│   │   ├── _nosotros-mediaqueries.scss
-│   │   ├── _reset.scss
-│   │   ├── _tratamientos-body.scss
-│   │   ├── _turnos-body.scss
-│   │   ├── _turnos-mediaqueries.scss
-│   │   └── _vars.scss
-│   ├── contacto.scss
-│   ├── estilos.scss
-│   ├── nosotros.scss
-│   ├── tratamientos.scss
-│   └── turnos.scss
-└── index.html
+    css/
+        contacto.css
+        estilos.css
+        nosotros.css
+        tratamientos.css
+        turnos.css
+    images/
+        background.jpg
+        background1.jpg
+        background2.jpg
+        dental_teeth_tooth_dentist_icon_220580.png (favicon)
+        favicon.jpg
+        (otras imágenes de tratamientos, etc.)
+    pages/
+        contacto.html
+        nosotros.html
+        tratamientos.html
+        turnos.html
+    scss/
+        partials/
+            _body.scss
+            _contacto-body.scss
+            _contacto-mediaqueries.scss
+            _footer.scss
+            _mediaqueries.scss
+            _menu.scss
+            _nosotros-body.scss
+            _nosotros-mediaqueries.scss
+            _reset.scss
+            _tratamientos-body.scss
+            _turnos-body.scss
+            _turnos-mediaqueries.scss
+            _vars.scss
+        contacto.scss
+        estilos.scss
+        nosotros.scss
+        tratamientos.scss
+        turnos.scss
+    index.html
 ``````
 
 ## 🛠️ Tecnologías Utilizadas
